@@ -1,7 +1,7 @@
 import React from 'react';
 
 export interface IBlockProps {
-    color: 'red' | 'green' | 'blue';
+    color: 'red' | 'green' | 'blue' | 'orange';
     text: string;
 }
 
