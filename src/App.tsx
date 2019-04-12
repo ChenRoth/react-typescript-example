@@ -7,7 +7,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Block text="hello" color="orange"/>
+        <Block color="orange"/>
+        <Block text="hello!" color="blue"/>
       </div>
     );
   }

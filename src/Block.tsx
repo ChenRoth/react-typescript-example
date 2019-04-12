@@ -2,7 +2,7 @@ import React from 'react';
 
 export interface IBlockProps {
     color: 'red' | 'green' | 'blue' | 'orange';
-    text: string;
+    text?: string;
 }
 
 export class Block extends React.Component<IBlockProps> {
